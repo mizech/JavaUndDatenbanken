@@ -63,7 +63,7 @@ Komponenten in einem Java-Programm übernehmen:
 
 3. Connection:
 
-4: Statement:
+4. Statement:
 
 Aufgabe 7:
 
@@ -120,6 +120,7 @@ Deklarieren Sie außerdem alle benötigten Variablen für die
 Methodenaufrufe.
 
 public class Kunden {
+
 	// Variablendeklarationen
 
 	// Getter()- und Setter()-Methoden
