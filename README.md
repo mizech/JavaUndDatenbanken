@@ -39,7 +39,9 @@ Aufgabe 4:
 Vervollständigen Sie bitte den folgenden Quellcode:
 
 sql = "___ s.Thema, s.Beschreibung, v.Termin, v.Ort"
+
     + "___ Seminar s, Veranstaltungen v"
+
     + "___ s.SemNr = v.SemNr";
 
 Aufgabe 5:
@@ -78,6 +80,7 @@ PreparedStatement pre_stmt = con.prepareStatement
 ("SELECT Namen FROM Teilnehmer WHERE VerID = ?)";
 
 pre_stmt.setint(___,___)
+
 prs_stmt.executeQuery();
 
 Aufgabe 9:
@@ -96,7 +99,9 @@ Angenommen, Sie haben eine Tabelle Kundenverwaltung mit den folgenden
 Spalten:
 
 KNr	Vorname	Nachname	GebDatum	Ort 	PLZ 	Straße
+
 1	Max		Mustermann	01.01.1960  Ulm		12345	Musterstraße
+
 2 	Tina	Musterfrau	...
 
 Wie könnte ein XML-Dokument aussehen, in dem die Kundendaten dieser
@@ -106,6 +111,7 @@ Attribute gespeichert werden. Alle anderen Kundendaten als Elemente.
 Ergänzen Sie:
 
 <?xml version="1.0" encoding="ISO-8859-1" ?>
+
 <Kundenverwaltung>
 
 </Kundenverwaltung>
